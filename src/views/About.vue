@@ -1,5 +1,23 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <toolbar/>
+
+
+
   </div>
 </template>
+
+<script>
+import toolbar from '@/components/toolBar.vue'
+
+export default {
+  name: 'about',
+  components: {
+    toolbar
+  }
+}
+</script>
+
+<style scoped>
+
+</style>
