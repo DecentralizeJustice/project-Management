@@ -2,8 +2,6 @@
   <div>
     <toolbar/>
 
-
-
   </div>
 </template>
 

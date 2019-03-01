@@ -8,6 +8,7 @@
       <v-btn flat>Multisig Crypto</v-btn>
       <v-btn flat>Frequent Wallet</v-btn>
       <v-btn flat>R and D</v-btn>
+      <v-btn flat>Operations</v-btn>
     </v-toolbar-items>
   </v-toolbar>
 </template>
