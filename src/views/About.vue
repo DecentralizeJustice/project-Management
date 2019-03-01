@@ -1,6 +1,6 @@
 <template>
   <div>
-    <toolbar/>
+    <toolbar  v-bind:currentPage="currentPage" />
 
   </div>
 </template>
@@ -12,7 +12,10 @@ export default {
   name: 'about',
   components: {
     toolbar
-  }
+  },
+  data: () => ({
+    currentPage: 'About'
+  })
 }
 </script>
 
