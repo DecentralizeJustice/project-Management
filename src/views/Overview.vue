@@ -3,7 +3,7 @@
     <toolbar  v-bind:currentPage="currentPage" />
     <v-container grid-list-md text-xs-center fluid>
     <v-layout row wrap>
-      <v-flex xs4>
+      <v-flex md4 xs12>
         <v-card dark >
          <v-card-title primary-title class="justify-center" >
            <div>
@@ -12,7 +12,7 @@
          </v-card-title>
          <v-divider light></v-divider>
          <v-layout row wrap class="justify-center">
-           <v-flex xs10 mb-2>
+           <v-flex xs10 mb-2 >
              <card/>
             </v-flex>
           </v-layout>

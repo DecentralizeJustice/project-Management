@@ -22,7 +22,16 @@ export default {
 </script>
 
 <style>
+#app{
+background: url('https://images.pexels.com/photos/994883/pexels-photo-994883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
+no-repeat center center fixed;
+/* Full height */
+height: 100%;
+width:100%;
 
-/* background: url('https://images.pexels.com/photos/994883/pexels-photo-994883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') */
-
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
 </style>
