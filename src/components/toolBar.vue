@@ -26,7 +26,7 @@ export default {
   data: () => ({
     pages: [
       { title: 'About', link: 'about' },
-      { title: 'General', link: 'general' },
+      { title: 'Overview', link: 'overview' },
       { title: 'Multisig Crypto', link: 'multisig' },
       { title: 'Frequent Wallet', link: 'frequent' },
       { title: 'R and D', link: 'randd' },

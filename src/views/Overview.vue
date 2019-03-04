@@ -28,13 +28,13 @@
 import toolbar from '@/components/toolBar.vue'
 import card from '@/components/card.vue'
 export default {
-  name: 'general',
+  name: 'overview',
   components: {
     toolbar,
     card
   },
   data: () => ({
-    currentPage: 'General'
+    currentPage: 'Overview'
   })
 }
 </script>
