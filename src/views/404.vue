@@ -1,6 +1,5 @@
 <template>
   <div>
-    <toolbar  v-bind:currentPage="currentPage" />
     <v-container grid-list-md text-xs-center fluid>
   <v-layout row wrap>
     <v-flex xs12 sm6 offset-sm3>
@@ -24,15 +23,13 @@
 </template>
 
 <script>
-import toolbar from '@/components/toolBar.vue'
-
 export default {
   name: 'randd',
   components: {
-    toolbar
+
   },
   data: () => ({
-    currentPage: 'None'
+
   })
 }
 </script>

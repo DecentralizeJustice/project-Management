@@ -2,16 +2,22 @@
   <div id="app">
     <v-app dark>
       <v-content>
-        <router-view/>
+        <toolbar  v-bind:currentPage="currentPage" />
+        <transition  name="fade"
+        mode="out-in">
+          <router-view></router-view>
+        </transition>
     </v-content>
   </v-app>
  </div>
 </template>
 
 <script>
+import toolbar from '@/components/toolBar.vue'
 export default {
   name: 'App',
   components: {
+    toolbar
   },
   data () {
     return {
@@ -33,5 +39,16 @@ width:100%;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
 }
 </style>

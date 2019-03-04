@@ -1,6 +1,5 @@
 <template>
   <div>
-    <toolbar  v-bind:currentPage="currentPage" />
     <v-container grid-list-md text-xs-center fluid>
     <v-layout row wrap>
       <v-flex md4 xs12>
@@ -25,16 +24,14 @@
 </template>
 
 <script>
-import toolbar from '@/components/toolBar.vue'
 import card from '@/components/card.vue'
 export default {
   name: 'overview',
   components: {
-    toolbar,
     card
   },
   data: () => ({
-    currentPage: 'Overview'
+
   })
 }
 </script>

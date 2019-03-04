@@ -1,6 +1,5 @@
 <template>
   <div>
-    <toolbar  v-bind:currentPage="currentPage" />
     <v-container grid-list-md text-xs-center fluid>
   <v-layout row wrap>
   </v-layout>
@@ -9,15 +8,13 @@
 </template>
 
 <script>
-import toolbar from '@/components/toolBar.vue'
-
 export default {
   name: 'frequent',
   components: {
-    toolbar
+
   },
   data: () => ({
-    currentPage: 'Frequent Wallet'
+
   })
 }
 </script>

@@ -41,10 +41,7 @@
 export default {
   name: 'toolBar',
   props: {
-    currentPage: {
-      type: String,
-      required: true
-    }
+
   },
   data: () => ({
     pages: [
