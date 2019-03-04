@@ -2,7 +2,7 @@
   <div id="app">
     <v-app dark>
       <v-content>
-        <toolbar  v-bind:currentPage="currentPage" />
+        <toolbar/>
         <transition  name="fade"
         mode="out-in">
           <router-view></router-view>

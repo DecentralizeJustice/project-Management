@@ -23,10 +23,10 @@
 export default {
   name: 'card',
   props: {
-    Info: {
-      type: Object,
-      required: true
-    }
+    // Info: {
+    //   type: Object,
+    //   required: true
+    // }
   }
 }
 </script>

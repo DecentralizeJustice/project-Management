@@ -5,7 +5,7 @@
       <v-toolbar-title>Project Managment</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn flat  v-bind:input-value="page.title==currentPage"
+        <v-btn flat  v-bind:input-value="page.link==current"
           v-for="page in pages"
           :key="page.title">
           <router-link  :to="page.link">
@@ -56,8 +56,15 @@ export default {
     items: [
       { title: 'Home', icon: 'dashboard' },
       { title: 'About', icon: 'question_answer' }
-    ]
-  })
+    ],
+    current: 'about'
+  }),
+  watch: {
+    $route (to, from) {
+      this.current = String(to.name)
+      console.log(this.current)
+    }
+  }
 }
 </script>
 
