@@ -22,8 +22,7 @@ export default {
 </script>
 
 <style>
-#app{
-background: url('https://images.pexels.com/photos/994883/pexels-photo-994883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
-no-repeat center center fixed;
-}
+
+/* background: url('https://images.pexels.com/photos/994883/pexels-photo-994883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') */
+
 </style>
