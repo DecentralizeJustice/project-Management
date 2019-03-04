@@ -12,10 +12,11 @@
             </v-card-title>
             <v-divider light></v-divider>
             <v-card-text class="subheading text-xs-left">
-              <div> This is the main project managment page for Decentrlize Justice. This is where you can check to see how the project is going. Its our attempt
-              at having an open and recorded project managment system. The major goals of this page are:</div>
+              <div> This is the main project managment page for Decentrlize Justice. This is where you can check to see how the project is going.
+                Its our attempt
+              at having an open and recorded project managment system. The major goals of this repo are:</div>
               <ul>
-                <li>Offer a type of black box recording of all project managment activities. </li>
+                <li>Offer a type of <a href="https://en.wikipedia.org/wiki/Flight_recorder">black box</a> recording of all project managment activities. </li>
                 <li>Make is as easy to contribute using a open <a href="https://en.wikipedia.org/wiki/Kanban">kanban</a> style project managment cycle</li>
                 <li>Offer customers and others a clear look at how we operate. </li>
               </ul>
