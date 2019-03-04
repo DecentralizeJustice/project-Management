@@ -23,7 +23,6 @@
               If you have any issues please feel free to open them in our gituhub issue.
               If you would like to contribute please submit a pr to this page under the prject you wisht to work on.
               If you have any general questions ask them on our reddit page.
-            </ul>
             </v-card-text>
             <v-card-actions class="justify-center">
               <v-btn flat href="https://github.com/DecentralizeJustice/project-Management/issues" color="primary">Github Issues</v-btn>
