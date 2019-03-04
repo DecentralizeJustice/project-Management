@@ -12,7 +12,7 @@
             </v-card-title>
             <v-divider light></v-divider>
             <v-card-text class="subheading text-xs-left">
-              <div> This is the main project managment page. This is where you can check to see how the project is going. Its our attempt
+              <div> This is the main project managment page for Decentrlize Justice. This is where you can check to see how the project is going. Its our attempt
               at having an open and recorded project managment system. The major goals of this page are:</div>
               <ul>
                 <li>Offer a type of black box recording of all project managment activities. </li>
