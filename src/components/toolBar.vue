@@ -26,10 +26,9 @@
             :key="page.title"
           >
             <v-list-tile-content>
-              <v-list-tile-title>
-                <router-link  :to="page.link">
+              <v-list-tile-title :to="page.link">
                   {{page.title}}
-                </router-link></v-list-tile-title>
+              </v-list-tile-title>
             </v-list-tile-content>
           </v-list-tile>
         </v-list>
