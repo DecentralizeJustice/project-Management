@@ -52,7 +52,7 @@ export default {
       // { title: 'Operations', link: 'operations' }
     ],
     drawer: null,
-    current: 'about'
+    current: ''
   }),
   watch: {
     $route (to, from) {
