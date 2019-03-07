@@ -12,6 +12,11 @@
             {{page.title}}
 
         </v-btn>
+        <v-btn flat href="https://github.com/DecentralizeJustice/project-Management">
+
+            Github
+
+        </v-btn>
       </v-toolbar-items>
     </v-toolbar>
     <v-navigation-drawer
