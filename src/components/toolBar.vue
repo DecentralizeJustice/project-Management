@@ -47,22 +47,17 @@ export default {
     pages: [
       { title: 'About', link: 'about' },
       { title: 'Overview', link: 'overview' },
-      { title: 'Multisig Crypto', link: 'multisig' },
-      { title: 'Frequent Wallet', link: 'frequent' },
-      { title: 'R and D', link: 'randd' },
-      { title: 'Operations', link: 'operations' }
+      // { title: 'Multisig Crypto', link: 'multisig' },
+      { title: 'Frequent Wallet', link: 'frequent' }
+      // { title: 'R and D', link: 'randd' },
+      // { title: 'Operations', link: 'operations' }
     ],
     drawer: null,
-    items: [
-      { title: 'Home', icon: 'dashboard' },
-      { title: 'About', icon: 'question_answer' }
-    ],
     current: 'about'
   }),
   watch: {
     $route (to, from) {
       this.current = String(to.name)
-      console.log(this.current)
     }
   }
 }
