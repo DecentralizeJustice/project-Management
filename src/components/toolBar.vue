@@ -7,10 +7,10 @@
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn flat  v-bind:input-value="page.link==current"
           v-for="page in pages"
-          :key="page.title">
-          <router-link  :to="page.link">
+          :key="page.title" :to="page.link">
+
             {{page.title}}
-          </router-link>
+
         </v-btn>
       </v-toolbar-items>
     </v-toolbar>
