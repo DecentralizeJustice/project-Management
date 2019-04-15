@@ -48,10 +48,10 @@ export default {
   data: () => ({
     pages: [
       { title: 'About', link: 'about' },
-      { title: 'Overview', link: 'overview' },
+      { title: 'Overview', link: 'overview' }
       // { title: 'Multisig Crypto', link: 'multisig' },
       // { title: 'R and D', link: 'randd' },
-      { title: 'Operations', link: 'operations' }
+      // { title: 'Operations', link: 'operations' }
     ],
     drawer: null,
     current: ''

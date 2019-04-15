@@ -10,7 +10,6 @@
      <div class="subheading"> by {{propObj.author}} </div>
      <v-card-actions class="justify-center">
        <v-btn flat color="primary">Explore</v-btn>
-       <v-btn flat color="primary">Specification</v-btn>
      </v-card-actions>
    </v-card>
 </template>
