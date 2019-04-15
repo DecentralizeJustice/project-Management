@@ -12,7 +12,7 @@
          <v-divider light></v-divider>
          <v-layout row wrap class="justify-center">
            <v-flex xs10 mb-2 >
-             <card :propObj="first"/>
+
             </v-flex>
           </v-layout>
         </v-card>
@@ -41,7 +41,7 @@
          <v-divider light></v-divider>
          <v-layout row wrap class="justify-center">
            <v-flex xs10 mb-2 style="min-height:25vh;">
-
+             <card :propObj="first"/>
             </v-flex>
           </v-layout>
         </v-card>
