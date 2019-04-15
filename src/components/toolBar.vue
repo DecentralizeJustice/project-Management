@@ -27,11 +27,10 @@
           <v-list-tile
             v-for="page in pages"
             :key="page.title"
+            :to="page.link"
           >
             <v-list-tile-content>
-              <v-list-tile-title :to="page.link">
-                  {{page.title}}
-              </v-list-tile-title>
+{{page.title}}
             </v-list-tile-content>
           </v-list-tile>
         </v-list>
@@ -47,8 +46,8 @@ export default {
   },
   data: () => ({
     pages: [
-      { title: 'About', link: 'about' },
-      { title: 'Overview', link: 'overview' }
+      { title: 'About', link: '/about' },
+      { title: 'Overview', link: '/overview' }
       // { title: 'Multisig Crypto', link: 'multisig' },
       // { title: 'R and D', link: 'randd' },
       // { title: 'Operations', link: 'operations' }
