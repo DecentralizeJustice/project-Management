@@ -50,7 +50,6 @@ export default {
       { title: 'About', link: 'about' },
       { title: 'Overview', link: 'overview' },
       // { title: 'Multisig Crypto', link: 'multisig' },
-      { title: 'Frequent Wallet', link: 'frequent' },
       // { title: 'R and D', link: 'randd' },
       { title: 'Operations', link: 'operations' }
     ],

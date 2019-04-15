@@ -13,7 +13,6 @@
          <v-layout row wrap class="justify-center">
            <v-flex xs10 mb-2 >
              <card :propObj="first"/>
-             <card :propObj="second"/>
             </v-flex>
           </v-layout>
         </v-card>
@@ -63,7 +62,7 @@ export default {
   data: () => ({
     first: {
       author: 'Donely',
-      title: 'Build Deconstruction Visualization'
+      title: 'Plan Store Overview'
     },
     second: {
       author: 'Donely',

@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import About from './views/About.vue'
 import Overview from './views/Overview.vue'
 import Multisig from './views/Multisig.vue'
-import Frequent from './views/Frequent.vue'
 import RandD from './views/RandD.vue'
 import PageNotFound from './views/404.vue'
 import Operations from './views/Ops.vue'
@@ -28,11 +27,6 @@ export default new Router({
       path: '/multisig',
       name: 'multisig',
       component: Multisig
-    },
-    {
-      path: '/frequent',
-      name: 'frequent',
-      component: Frequent
     },
     {
       path: '/randd',
