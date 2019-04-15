@@ -9,7 +9,7 @@
      </v-card-title>
      <div class="subheading"> by {{propObj.author}} </div>
      <v-card-actions class="justify-center">
-       <v-btn flat color="primary">Explore</v-btn>
+       <v-btn flat color="primary" :href="propObj.link" target="_blank" >Explore</v-btn>
      </v-card-actions>
    </v-card>
 </template>
@@ -18,7 +18,6 @@
 export default {
   name: 'card',
   props: {
-
     propObj: { type: Object, required: true }
   }
 }

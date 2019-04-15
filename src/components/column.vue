@@ -10,7 +10,7 @@
          <v-divider light></v-divider>
          <v-layout row wrap class="justify-center">
            <v-flex xs10 mb-2 style="min-height:25vh;">
-             <card :propObj="proj"/>
+             <card v-for="item in proj" :propObj="item" :key="item.id"/>
             </v-flex>
           </v-layout>
         </v-card>

@@ -3,8 +3,8 @@
     <v-container grid-list-md text-xs-center fluid>
     <v-layout row wrap>
       <column v-bind:proj="toDo" title="To Do"/>
-      <column title="Doing"/>
-      <column title="Under Review"/>
+      <column v-bind:proj="doing" title="Doing"/>
+      <column v-bind:proj="review" title="Under Review"/>
     </v-layout>
   </v-container>
   </div>
@@ -27,6 +27,24 @@ export default {
         }
       })
       return toDoTask
+    },
+    doing: function () {
+      let doingTask = []
+      task.forEach(function (element) {
+        if (element.state === 'Doing') {
+          doingTask.push(element)
+        }
+      })
+      return doingTask
+    },
+    review: function () {
+      let reviewTask = []
+      task.forEach(function (element) {
+        if (element.state === 'Under Review') {
+          reviewTask.push(element)
+        }
+      })
+      return reviewTask
     }
   }
 }
