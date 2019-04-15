@@ -30,7 +30,7 @@
             :to="page.link"
           >
             <v-list-tile-content>
-{{page.title}}
+              {{page.title}}
             </v-list-tile-content>
           </v-list-tile>
         </v-list>
