@@ -13,6 +13,12 @@ const task =
       link: 'https://www.decentralizejustice.com/blog/powerto',
       author: 'Donely',
       project: 'Blog'
+    },
+    {
+      title: 'Setup Decen Justice Main',
+      state: 'To Do',
+      link: 'https://www.decentralizejustice.com/',
+      author: 'Donely'
     }
   ]
 
