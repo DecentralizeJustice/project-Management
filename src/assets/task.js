@@ -9,7 +9,7 @@ const task =
     },
     {
       title: 'Setup Decen Justice Main',
-      state: 'To Do',
+      state: 'Doing',
       link: 'https://www.decentralizejustice.com/',
       author: 'Donely'
     },
