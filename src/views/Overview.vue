@@ -4,7 +4,7 @@
     <v-layout row wrap>
       <column v-bind:proj="toDo" title="To Do"/>
       <column v-bind:proj="doing" title="Doing"/>
-      <column v-bind:proj="review" title="Under Review"/>
+      <!-- <column v-bind:proj="review" title="Under Review"/> -->
     </v-layout>
   </v-container>
   </div>
