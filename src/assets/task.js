@@ -9,7 +9,7 @@ const task =
     },
     {
       title: 'Update Multisig Docs',
-      state: 'Doing',
+      state: 'To Do',
       link: 'https://www.multisigcrypto.com/docs',
       author: 'Donely',
       project: 'Multisig'
