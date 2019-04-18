@@ -8,6 +8,12 @@ const task =
       project: 'Blog'
     },
     {
+      title: 'Update Multisig Docs',
+      state: 'Doing',
+      link: 'https://www.multisigcrypto.com/docs',
+      author: 'Donely'
+    },
+    {
       title: 'Setup Decen Justice Main',
       state: 'Doing',
       link: 'https://www.decentralizejustice.com/',
