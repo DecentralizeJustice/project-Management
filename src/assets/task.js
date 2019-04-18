@@ -27,6 +27,13 @@ const task =
       link: 'https://keysbyanymeans.com/',
       author: 'Donely',
       project: 'Keys'
+    },
+    {
+      title: 'Format Landing Page',
+      state: 'To Do',
+      link: 'https://www.decentralizejustice.com/blog',
+      author: 'Donely',
+      project: 'Blog'
     }
   ]
 
