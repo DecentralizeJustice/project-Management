@@ -11,19 +11,22 @@ const task =
       title: 'Update Multisig Docs',
       state: 'Doing',
       link: 'https://www.multisigcrypto.com/docs',
-      author: 'Donely'
+      author: 'Donely',
+      project: 'Multisig'
     },
     {
       title: 'Setup Decen Justice Main',
       state: 'Doing',
       link: 'https://www.decentralizejustice.com/',
-      author: 'Donely'
+      author: 'Donely',
+      project: 'Main'
     },
     {
       title: 'List Crypto Storage Tools',
       state: 'To Do',
       link: 'https://keysbyanymeans.com/',
-      author: 'Donely'
+      author: 'Donely',
+      project: 'Keys'
     }
   ]
 

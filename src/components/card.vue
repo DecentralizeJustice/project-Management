@@ -8,6 +8,7 @@
        </div>
      </v-card-title>
      <div class="subheading"> by {{propObj.author}} </div>
+     <div class="subheading"> Project: <br> {{propObj.project}} </div>
      <v-card-actions class="justify-center">
        <v-btn flat color="primary" :href="propObj.link" target="_blank" >Explore</v-btn>
      </v-card-actions>
