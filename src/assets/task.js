@@ -15,13 +15,6 @@ const task =
       project: 'Multisig'
     },
     {
-      title: 'Setup Decen Justice Main',
-      state: 'Doing',
-      link: 'https://www.decentralizejustice.com/',
-      author: 'Donely',
-      project: 'Main'
-    },
-    {
       title: 'List Crypto Storage Tools',
       state: 'To Do',
       link: 'https://keysbyanymeans.com/',
