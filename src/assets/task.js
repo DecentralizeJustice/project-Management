@@ -34,6 +34,13 @@ const task =
       link: 'https://www.decentralizejustice.com/randd/intro/',
       author: 'Donely',
       project: 'R and D'
+    },
+    {
+      title: 'Re Do Landing Page',
+      state: 'To Do',
+      link: 'www.multisigcryoto.com',
+      author: 'Donely',
+      project: 'Multisig'
     }
   ]
 
