@@ -8,11 +8,11 @@ const task =
       project: 'Blog'
     },
     {
-      title: 'Update Multisig Docs',
+      title: 'Design Keys By Any Means',
       state: 'Doing',
-      link: 'https://www.multisigcrypto.com/docs',
+      link: 'https://keysbyanymeans.com/',
       author: 'Donely',
-      project: 'Multisig'
+      project: 'Keys'
     },
     {
       title: 'List Crypto Storage Tools',
