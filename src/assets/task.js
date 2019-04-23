@@ -29,6 +29,13 @@ const task =
       project: 'Blog'
     },
     {
+      title: 'Add Seo tool',
+      state: 'To Do',
+      link: 'https://www.decentralizejustice.com',
+      author: 'Donely',
+      project: 'Website'
+    },
+    {
       title: 'Add Shamir Secret Sharing to R and D',
       state: 'To Do',
       link: 'https://www.decentralizejustice.com/randd/intro/',
