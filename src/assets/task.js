@@ -8,13 +8,6 @@ const task =
       project: 'Blog'
     },
     {
-      title: 'Make Plastic Key Page',
-      state: 'Doing',
-      link: 'https://plastickeystorage.com/',
-      author: 'Donely',
-      project: 'Plastic'
-    },
-    {
       title: 'List Crypto Storage Tools',
       state: 'To Do',
       link: 'https://keysbyanymeans.com/',
